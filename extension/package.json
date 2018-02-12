@@ -1,0 +1,15 @@
+{
+  "name": "focus-on-content",
+  "version": "1.0.0",
+  "description": "Don't let numbers and stats trick you into following/using/reading/watching what you don't REALLY want to consume. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M. Hasbini & A. Samman",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "focus on content",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["index.js"],
+    "run_at": "document_start"
+  }],
+  "permissions": [
+    "https://s3.amazonaws.com/fowm/",
+    "storage"
+  ]
+}
