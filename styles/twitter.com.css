@@ -1,4 +1,4 @@
 .ProfileCardStats-statValue,
 .ProfileNav-value,
 .ProfileTweet-actionCountForPresentation
-{opacity: 0;}
+{display: 0;}

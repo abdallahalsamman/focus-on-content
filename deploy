@@ -1,0 +1,7 @@
+python -c 'import os, json; print json.dumps([f.replace(".css", "") for f in os.listdir("./styles")])' > supportedsites.json;
+s3-cli --config s3cmd.conf -P put supportedsites.json s3://fowm/supportedsites.json;
+for file in `ls styles`;
+  do
+    echo $file;
+    s3-cli --config s3cmd.conf -P put styles/$file s3://fowm/styles/$file;
+  done;

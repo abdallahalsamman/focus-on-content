@@ -1,0 +1,10 @@
+yt-view-count-renderer,
+span.ytd-video-meta-block,
+ytd-toggle-button-renderer:first-child yt-formatted-string,
+ytd-toggle-button-renderer:nth-of-type(2) yt-formatted-string,
+.count-text,
+.vote-count-left,
+.ytd-subscribe-button-renderer span,
+#metadata-line > span:nth-child(1),
+#subscriber-count
+{display: none;}
