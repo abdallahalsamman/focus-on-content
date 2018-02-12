@@ -7,4 +7,4 @@ ytd-toggle-button-renderer:nth-of-type(2) yt-formatted-string,
 .ytd-subscribe-button-renderer span,
 #metadata-line > span:nth-child(1),
 #subscriber-count
-{display: none;}
+{display: none !important;}
