@@ -1,4 +1,6 @@
 .ProfileCardStats-statValue,
 .ProfileNav-value,
-.ProfileTweet-actionCountForPresentation
+.ProfileTweet-actionCountForPresentation,
+.request-retweeted-popup strong,
+.request-favorited-popup strong
 {display: none !important;}
